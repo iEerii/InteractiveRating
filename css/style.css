@@ -23,10 +23,10 @@ html {
     display: flex;
     font-family: 'Overpass', sans-serif;
     height: 100vh;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
-.rating-box {
+.rating-container {
     background-color: var(--DarkBlue);
     border-radius: 40px;
     padding: 30px;
