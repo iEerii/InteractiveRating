@@ -33,25 +33,17 @@ html {
     width: 400px;
 }
 
-.img-box {
+.header-container p {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.header-container img {
     background-color: var(--MediumDarkBlue);
-    padding: 15px;
     border-radius: 100px;
-    /* margin-bottom: 20px; */
-    transition: all .4s ease-in-out;
-}
-
-.img-box:hover{
-    background-color: var(--Orange);
-}
-
-.img-margin{
     margin-bottom: 20px;
-}
-
-h2 {
-    color: var(--White);
-    margin: 0;
+    padding: 15px;
 }
 
 p {
@@ -97,14 +89,18 @@ ul {
 
 
 .list{
-    background-color: transparent;
+    background-color: var(--MediumDarkBlue);
     border: none;
+    border-radius: 100px;
     color: var(--MediumGrey);
     cursor: pointer;
+    height: 50px;
     transition: all .4s ease-in-out;
+    width: 50px;
 }
 
 .list:hover{
+    background-color: var(--Orange);
     color: var(--White);
 }
 
