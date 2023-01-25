@@ -81,6 +81,11 @@ ul {
     color: var(--White);
 }
 
+.active {
+    background-color: var(--MediumGrey);
+    color: white;
+}
+
 .submit-box {
     background-color: var(--Orange);
     border-radius: 26px;
