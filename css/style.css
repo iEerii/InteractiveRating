@@ -1,10 +1,11 @@
-html {
+*, *:before, *:after {
     box-sizing: border-box;
 }
 
-*, *:before, *:after {
-    box-sizing: inherit;
+html {
+    font-size: 62.5%;
 }
+
 
 :root {
     --Orange: hsl(25, 97%, 53%);
@@ -30,37 +31,37 @@ html {
 
 .rating-container {
     background-color: var(--DarkBlue);
-    border-radius: 40px;
-    padding: 30px;
-    width: 400px;
+    border-radius: 4rem;
+    padding: 3rem;
+    width: 40rem;
 }
 
 .header-container img {
     background-color: var(--MediumDarkBlue);
-    border-radius: 100px;
-    margin-bottom: 15px;
-    padding: 15px;
+    border-radius: 10rem;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
 }
 
 .white-letter {
     color: white;
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 700;
-    margin: 20px 0 0;
+    margin: 2rem 0 0;
 }
 
 p {
     color: var(--LightGrey);
-    font-size: 15px;
-    line-height: 22px;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
 }
 
 ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    margin: 20px 0 20px 0;
-    padding-right: 5px;
+    margin: 2rem 0 2rem 0;
+    padding-right: .5rem;
     padding-left: 0px;
     transition: all .4s ease-in-out;
 }
@@ -68,12 +69,13 @@ ul {
 .list{
     background-color: var(--MediumDarkBlue);
     border: none;
-    border-radius: 100px;
+    border-radius: 10rem;
     color: var(--MediumGrey);
     cursor: pointer;
-    height: 48px;
+    font-size: 1.5rem;
+    height: 4.8rem;
     transition: all .4s ease-in-out;
-    width: 50px;
+    width: 5rem;
 }
 
 .list:hover{
@@ -88,16 +90,16 @@ ul {
 
 .submit-box {
     background-color: var(--Orange);
-    border-radius: 26px;
-    border: 2px solid var(--Orange);
+    border-radius: 2.6rem;
+    border: .2rem solid var(--Orange);
     color: var(--White);
     display: flex;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 700;
     justify-content: center;
-    letter-spacing: 2px;
-    margin-top: 25px;
-    padding: 12px;
+    letter-spacing: .2rem;
+    margin-top: 2.5rem;
+    padding: 1.2rem;
     text-decoration: none;
     text-transform: uppercase;
     transition: all .4s ease-in-out;
@@ -106,29 +108,29 @@ ul {
 
 .submit-box:hover{
     background-color: var(--White);
-    border: 2px solid var(--White);
+    border: .2rem solid var(--White);
     color: var(--Orange);
 }
 
 .ty-box {
     align-items: center;
     background-color: var(--DarkBlue);
-    border-radius: 40px;
+    border-radius: 4rem;
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 3rem;
     text-align: center;
-    width: 400px;
+    width: 40rem;
 }
 
 .ty-box img {
-    margin: 10px 0 10px;
+    margin: 1rem 0 1rem;
 }
 
 .option-counter {
     background-color: var(--MediumDarkBlue);
-    border-radius: 20px;
+    border-radius: 2rem;
     color: var(--Orange);
-    margin: 20px;
-    padding: 5px 20px;
+    margin: 2rem;
+    padding: .5rem 2rem;
 }
