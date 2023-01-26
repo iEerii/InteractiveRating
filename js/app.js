@@ -2,10 +2,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const numButtons = document.querySelectorAll('.list');
     const submitBtn = document.querySelector('.submit-box');
-    
+
+    let valueRate = 0;
 
     function activeBotton() {
-        this.value;
+        valueRate = this.value;
         
         numButtons.forEach((button) => {
             button.classList.remove('active');
@@ -19,13 +20,16 @@ document.addEventListener('DOMContentLoaded', function() {
     numButtons.forEach((button) => button.addEventListener('click', activeBotton));
 
     function showRaiting() {
-        if (submitBtn){
-            window.location.href = "html/succes.html"
+        
+        if (valueRate === 0) {
+            Swal.fire('Please select an option');
+            return;
         }
-        const raiting = document.getElementById('#raiting');
-        raiting.innerHTML = localStorage.getItem('value');
+
+        window.location.href = "pages/success.html"
+
     }
 
     submitBtn.addEventListener('click', showRaiting);
-   
+    
 })
