@@ -1,7 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
 
     const numButtons = document.querySelectorAll('.list');
-    console.log('hola', numButtons)
+    const submitBtn = document.querySelector('.submit-box');
+    
 
     function activeBotton() {
         this.value;
@@ -16,5 +17,15 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     numButtons.forEach((button) => button.addEventListener('click', activeBotton));
-    
+
+    function showRaiting() {
+        if (submitBtn){
+            window.location.href = "html/succes.html"
+        }
+        const raiting = document.getElementById('#raiting');
+        raiting.innerHTML = localStorage.getItem('value');
+    }
+
+    submitBtn.addEventListener('click', showRaiting);
+   
 })
