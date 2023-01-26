@@ -28,7 +28,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/iEerii/InteractiveRating)
 - Live Site URL: [Add live site URL here](https://interactivraiting.netlify.app/)
 
 ## My process
